@@ -175,7 +175,7 @@ function setLightState(lightID, onState, hue, saturation, brightness, i) {
 
 function getConfigurations() {
 
-    const URL = "http://localhost:9000/lights";
+    const URL = "/lights";
 
     $.ajax({
         url: URL,
